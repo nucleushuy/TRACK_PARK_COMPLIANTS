@@ -6,21 +6,21 @@ A historical, probabilistic parking analysis tool for the San Francisco Bay Area
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## ⚠️ Important Disclaimer
+## Important Disclaimer
 
-- ❌ This app does **NOT** track real-time enforcement vehicle locations
-- ❌ This app does **NOT** suggest or encourage illegal parking
-- ✅ All data is historical and for informational purposes only
-- ✅ Always park legally and check posted signs
+-  This app does **NOT** track real-time enforcement vehicle locations
+- This app does **NOT** suggest or encourage illegal parking
+-  All data is historical and for informational purposes only
+-  Always park legally and check posted signs
 
 ## Features
 
-### 📊 Data Analysis
+###  Data Analysis
 - Load and process SF parking citation data
 - Load and process San Jose 311 illegal parking complaints
 - Time-based filtering (hour of day, day of week)
 
-### 🗺️ Interactive Map
+###  Interactive Map
 - SF enforcement activity heatmap (red)
 - SJ complaint hotspot heatmap (blue)
 - Risk grid overlay with color-coded cells
@@ -32,12 +32,12 @@ A historical, probabilistic parking analysis tool for the San Francisco Bay Area
 - Combined risk score (SF: 70%, SJ: 30% by default)
 - Normalized scores (0-1 range)
 
-### 📍 Destination Lookup
+###  Destination Lookup
 - Enter coordinates to check risk score
 - Find nearby lower-risk areas for legal parking
 - Distance-sorted suggestions
 
-### 📥 Data Export
+###  Data Export
 - Download combined risk grid CSV
 - Download filtered SF tickets CSV
 
